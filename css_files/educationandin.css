@@ -1,0 +1,100 @@
+.edai_menu{
+    background-color:#a5a5a5;
+    width: 100%;
+    height: 5%;
+    left:0%;
+}
+
+.edai_menu h3{
+    display: inline;
+    margin: 1em;
+    font-weight: 100;
+    font-family: 'windows95';
+}
+
+.top_edai{
+    display: flex;
+    flex-direction: column;
+    height: 75%;
+    width: 60%;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    border-style: double;
+    border-color: #D5D5D5;
+}
+
+.titleholder{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 8%;
+    background-color: #a5a5a5;
+    left: 0%;
+}
+
+.titleholder button{
+    height: 100%;
+    width: 7%;
+    border-radius: 0;
+    border-style: none;
+    background-color: #D5D5D5;
+}
+
+.titleholder h3{
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: auto;
+    font-size:medium;
+    margin-right: auto;
+    margin-top: 3px;
+}
+
+.content_holders{
+    width: 100%;
+    height: 33%;
+    display: flex;
+}
+
+.content_interests{
+    height: 92%;
+    width: 100%;
+    
+}
+
+.content_holders p{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    font-family: "windows95bold";
+    padding: 1em;;
+    border-bottom: solid black 1px;
+
+}
+
+.content_holders img{
+    margin:2em;
+}
+
+.content_educationholders{
+
+    margin-top: 7%;
+    width: 100%;
+    height: 50%;
+    display: flex;
+
+}
+
+.content_educationholders img{
+
+    height: 100%;
+    margin: 1em;
+    padding: 0;
+
+}
+
+.content_educationholders p{
+
+    margin:1em;
+    padding: 0;
+}

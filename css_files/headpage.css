@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'windows95';
+    src: url(/font/w95fa/w95fa.woff)format('woff');
+    src: url(/font/w95fa/w95fa.woff2)format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'windows95bold';
+    src: url(/font/ari-w9500-display/ari-w9500-display.woff) format('woff');
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+
+/* holder */
+.windows95gui{
+    background-color: #008282;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+
+.windowsdialogbox{
+    display: flex;
+    flex-direction: column;
+
+    background-color: #C3C3C3;
+    position:absolute;
+    width:60%;
+    height:70%;
+    top:50%;
+    margin-left:35%;
+
+    transform: translate(-50%,-50%);
+
+    border-style: outset;
+    border-width: 4px;
+    border-color: white black black white;
+}
+
+.holder_windowsdialogbox{
+    width: 70%;
+    height: 100%;
+    
+}
+
+.files{
+    margin-top: 10%;
+    margin-right: 10%;
+    margin-left: auto;
+    height: 5em;
+    width: 5em;
+    border: none;
+    background-color: #008282;
+}
+
+.files img{
+    width: auto;
+    height: 70%;
+}
+.files h4{
+    font-family:"windows95",sans-serif;
+    bottom: 5%;
+    top:auto;
+    font-weight: 1000;
+    font-size: medium;
+}
+
+.files:hover{
+    background-color: #858585;
+}
+
+.navbutton_holders{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 30%;
+}
+
+.windowsdialogbox_projects{
+    display: flex;
+    flex-direction: column;
+
+    background-color: #C3C3C3;
+    position:absolute;
+    width:60%;
+    height:80%;
+    top:50%;
+    margin-left:35%;
+
+    transform: translate(-50%,-50%);
+
+    border-style: outset;
+    border-width: 4px;
+    border-color: white black black white;
+}
+
+
+
+.windowsdialogbox_contactme{
+    display: flex;
+    flex-direction: column;
+
+    background-color: #C3C3C3;
+    position:absolute;
+    width:40%;
+    height:40%;
+    top:50%;
+    margin-left:35%;
+
+    transform: translate(-50%,-50%);
+
+    border-style: outset;
+    border-width: 4px;
+    border-color: white black black white;
+}
+
+
+
+
+
+
+

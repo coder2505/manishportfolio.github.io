@@ -1,0 +1,33 @@
+
+
+.telephonepic{
+    display: flex;
+    width: 100%;
+    height: 25%;
+}
+
+.telephonepic img{
+    margin: auto;
+    height: 60%;
+    width: auto;
+}
+
+.yellowbox{
+    height: 30%;
+    width: 80%;
+    margin: auto;
+    display: flex;
+
+    background-color: #ffffd7;
+    border-style: outset;
+    border-width: 3px;
+    border-color: black white;
+}
+
+.yellowbox h3{
+
+    margin: auto;
+    margin-left: 0;
+    font-family: "windows95bold",'Courier New', Courier, monospace;
+
+}

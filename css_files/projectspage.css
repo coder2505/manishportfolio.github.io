@@ -1,0 +1,43 @@
+.project_holder{
+    display: flex;
+    width: 100%;
+    height: 30%;
+    border-bottom: solid black 1px;;
+}
+
+.project_image{
+    height: 100%;
+    width: 20%;
+    border-right: solid black 1px;
+}
+
+.project_image img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  
+}
+
+.project_description{
+    height: 100%;
+    width:60%;
+    border-right: solid black 1px;
+    font-family: "windows95";
+    display: flex;
+    overflow: hidden;
+}
+.project_description p{
+    width: 90%;
+    height: 90%;
+    margin:auto;
+}
+
+.project_link{
+    height: 100%;
+    width: 20%;
+    display: flex;
+}
+
+.project_link a{
+    margin: auto;
+}

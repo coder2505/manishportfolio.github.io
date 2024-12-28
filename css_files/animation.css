@@ -1,0 +1,29 @@
+@keyframes slideIn {
+    from {
+      opacity: 100%;
+    }
+    to {
+      opacity: 100%;
+    }
+  }
+  
+  /* Hidden class to hide div2 initially */
+  .hidden {
+    display: none;
+  }
+  .shownav{
+    display: flex;
+  }
+  
+  /* Applied when replacing div1 with div2 */
+  .show {
+    display: block;
+    /* animation: slideIn 0.5s ease-out forwards; */
+    animation-name: slideIn;          /* Specifies the name of the @keyframes animation */
+    animation-duration: 1s;         /* Specifies the duration of the animation */
+    animation-timing-function:ease; /* Controls the speed curve of the animation */
+    animation-fill-mode: forwards;    /* Ensures the element retains the final state after animation */
+    animation-delay: 0s;              /* Specifies the delay before the animation starts (default is 0s) */
+    animation-iteration-count: 1;     /* Specifies how many times the animation should run (default is 1) */
+    animation-direction: normal; 
+  }
