@@ -41,6 +41,7 @@
     height:70%;
     top:50%;
     margin-left:35%;
+    overflow:hidden;
 
     transform: translate(-50%,-50%);
 
