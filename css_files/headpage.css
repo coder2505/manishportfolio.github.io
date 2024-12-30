@@ -4,15 +4,15 @@
 
 @font-face {
     font-family: 'windows95';
-    src: url(/font/w95fa/w95fa.woff)format('woff');
-    src: url(/font/w95fa/w95fa.woff2)format('woff2');
+    src: url(/manishportfolio.github.io/font/w95fa/w95fa.woff)format('woff');
+    src: url(/manishportfolio.github.io/font/w95fa/w95fa.woff2)format('woff2');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'windows95bold';
-    src: url(/font/ari-w9500-display/ari-w9500-display.woff) format('woff');
+    src: url(/manishportfolio.github.io/font/ari-w9500-display/ari-w9500-display.woff) format('woff');
 }
 
 .container{
